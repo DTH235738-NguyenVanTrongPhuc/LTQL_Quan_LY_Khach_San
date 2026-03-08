@@ -30,6 +30,12 @@
         {
             groupBox2 = new GroupBox();
             dataGridView = new DataGridView();
+            HoVaTen = new DataGridViewTextBoxColumn();
+            DiaChi = new DataGridViewTextBoxColumn();
+            DienThoai = new DataGridViewTextBoxColumn();
+            NamSInh = new DataGridViewTextBoxColumn();
+            QuyenHan = new DataGridViewTextBoxColumn();
+            TenDangNhap = new DataGridViewTextBoxColumn();
             btnXuat = new Button();
             btnNhap = new Button();
             btnTimKiem = new Button();
@@ -54,12 +60,6 @@
             label6 = new Label();
             cboQuyenHan = new ComboBox();
             label5 = new Label();
-            HoVaTen = new DataGridViewTextBoxColumn();
-            DiaChi = new DataGridViewTextBoxColumn();
-            DienThoai = new DataGridViewTextBoxColumn();
-            NamSInh = new DataGridViewTextBoxColumn();
-            QuyenHan = new DataGridViewTextBoxColumn();
-            TenDangNhap = new DataGridViewTextBoxColumn();
             groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView).BeginInit();
             groupBox1.SuspendLayout();
@@ -68,9 +68,10 @@
             // groupBox2
             // 
             groupBox2.Controls.Add(dataGridView);
-            groupBox2.Location = new Point(12, 189);
+            groupBox2.Dock = DockStyle.Fill;
+            groupBox2.Location = new Point(0, 192);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(1399, 356);
+            groupBox2.Size = new Size(1411, 365);
             groupBox2.TabIndex = 7;
             groupBox2.TabStop = false;
             groupBox2.Text = "Danh sách khách Hàng";
@@ -87,8 +88,50 @@
             dataGridView.MultiSelect = false;
             dataGridView.Name = "dataGridView";
             dataGridView.RowHeadersWidth = 51;
-            dataGridView.Size = new Size(1393, 330);
+            dataGridView.Size = new Size(1405, 339);
             dataGridView.TabIndex = 4;
+            // 
+            // HoVaTen
+            // 
+            HoVaTen.DataPropertyName = "TenNhanVien";
+            HoVaTen.HeaderText = "Tên";
+            HoVaTen.MinimumWidth = 6;
+            HoVaTen.Name = "HoVaTen";
+            // 
+            // DiaChi
+            // 
+            DiaChi.DataPropertyName = "DiaChi";
+            DiaChi.HeaderText = "Địa chỉ";
+            DiaChi.MinimumWidth = 6;
+            DiaChi.Name = "DiaChi";
+            // 
+            // DienThoai
+            // 
+            DienThoai.DataPropertyName = "SoDienThoai";
+            DienThoai.HeaderText = "Số điện thoại";
+            DienThoai.MinimumWidth = 6;
+            DienThoai.Name = "DienThoai";
+            // 
+            // NamSInh
+            // 
+            NamSInh.DataPropertyName = "NamSinh";
+            NamSInh.HeaderText = "Năm sinh";
+            NamSInh.MinimumWidth = 6;
+            NamSInh.Name = "NamSInh";
+            // 
+            // QuyenHan
+            // 
+            QuyenHan.DataPropertyName = "QuyenHan";
+            QuyenHan.HeaderText = "Quyền hạn";
+            QuyenHan.MinimumWidth = 6;
+            QuyenHan.Name = "QuyenHan";
+            // 
+            // TenDangNhap
+            // 
+            TenDangNhap.DataPropertyName = "TenDangNhap";
+            TenDangNhap.HeaderText = "Tên Đăng Nhập";
+            TenDangNhap.MinimumWidth = 6;
+            TenDangNhap.Name = "TenDangNhap";
             // 
             // btnXuat
             // 
@@ -266,12 +309,14 @@
             groupBox1.Controls.Add(label1);
             groupBox1.Controls.Add(label2);
             groupBox1.Controls.Add(label3);
-            groupBox1.Location = new Point(12, 12);
+            groupBox1.Dock = DockStyle.Top;
+            groupBox1.Location = new Point(0, 0);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(1232, 171);
+            groupBox1.Size = new Size(1411, 192);
             groupBox1.TabIndex = 6;
             groupBox1.TabStop = false;
             groupBox1.Text = "Thông tin Nhân viên";
+            groupBox1.Enter += groupBox1_Enter;
             // 
             // txtMatKhau
             // 
@@ -324,48 +369,6 @@
             label5.TabIndex = 13;
             label5.Text = "Quyền hạn";
             // 
-            // HoVaTen
-            // 
-            HoVaTen.DataPropertyName = "TenNhanVien";
-            HoVaTen.HeaderText = "Tên";
-            HoVaTen.MinimumWidth = 6;
-            HoVaTen.Name = "HoVaTen";
-            // 
-            // DiaChi
-            // 
-            DiaChi.DataPropertyName = "DiaChi";
-            DiaChi.HeaderText = "Địa chỉ";
-            DiaChi.MinimumWidth = 6;
-            DiaChi.Name = "DiaChi";
-            // 
-            // DienThoai
-            // 
-            DienThoai.DataPropertyName = "SoDienThoai";
-            DienThoai.HeaderText = "Số điện thoại";
-            DienThoai.MinimumWidth = 6;
-            DienThoai.Name = "DienThoai";
-            // 
-            // NamSInh
-            // 
-            NamSInh.DataPropertyName = "NamSinh";
-            NamSInh.HeaderText = "Năm sinh";
-            NamSInh.MinimumWidth = 6;
-            NamSInh.Name = "NamSInh";
-            // 
-            // QuyenHan
-            // 
-            QuyenHan.DataPropertyName = "QuyenHan";
-            QuyenHan.HeaderText = "Quyền hạn";
-            QuyenHan.MinimumWidth = 6;
-            QuyenHan.Name = "QuyenHan";
-            // 
-            // TenDangNhap
-            // 
-            TenDangNhap.DataPropertyName = "TenDangNhap";
-            TenDangNhap.HeaderText = "Tên Đăng Nhập";
-            TenDangNhap.MinimumWidth = 6;
-            TenDangNhap.Name = "TenDangNhap";
-            // 
             // frmNhanVien
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -373,8 +376,11 @@
             ClientSize = new Size(1411, 557);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "frmNhanVien";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "frmNhanVien";
+            WindowState = FormWindowState.Maximized;
             groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dataGridView).EndInit();
             groupBox1.ResumeLayout(false);

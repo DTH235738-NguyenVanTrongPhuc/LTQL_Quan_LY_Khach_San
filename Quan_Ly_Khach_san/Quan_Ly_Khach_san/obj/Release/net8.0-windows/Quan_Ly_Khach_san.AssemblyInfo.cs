@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Quan_Ly_Khach_san")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b00d692a4fc0eb6ceea412c62f59fe53e94baf7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Quan_Ly_Khach_san")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Quan_Ly_Khach_san")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

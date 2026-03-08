@@ -12,9 +12,10 @@ namespace Quan_Ly_Khach_san.form
 {
     public partial class frmDatPhong : Form
     {
-        public frmDatPhong()
+        public frmDatPhong(int roomNumber)
         {
             InitializeComponent();
+            labelRoom.Text = "Room: " + roomNumber;
         }
     }
 }

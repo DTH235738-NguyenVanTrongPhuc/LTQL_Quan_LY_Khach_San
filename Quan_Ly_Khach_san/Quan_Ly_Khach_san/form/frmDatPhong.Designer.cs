@@ -28,12 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "frmDatPhong";
+            labelRoom = new Label();
+            SuspendLayout();
+            // 
+            // labelRoom
+            // 
+            labelRoom.AutoSize = true;
+            labelRoom.Location = new Point(12, 9);
+            labelRoom.Name = "labelRoom";
+            labelRoom.Size = new Size(50, 20);
+            labelRoom.TabIndex = 0;
+            labelRoom.Text = "label1";
+            // 
+            // frmDatPhong
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(labelRoom);
+            Name = "frmDatPhong";
+            Text = "frmDatPhong";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Label labelRoom;
     }
 }

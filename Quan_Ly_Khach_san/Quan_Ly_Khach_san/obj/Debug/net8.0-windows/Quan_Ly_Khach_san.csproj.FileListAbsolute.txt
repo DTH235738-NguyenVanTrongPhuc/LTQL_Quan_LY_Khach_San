@@ -262,3 +262,13 @@ E:\Quan_Ly_khach_san1\Quan_Ly_Khach_san\Quan_Ly_Khach_san\obj\Debug\net8.0-windo
 E:\Quan_Ly_khach_san1\Quan_Ly_Khach_san\Quan_Ly_Khach_san\obj\Debug\net8.0-windows\Quan_Ly_Khach_san.frmKhachhang.resources
 E:\Quan_Ly_khach_san1\Quan_Ly_Khach_san\Quan_Ly_Khach_san\obj\Debug\net8.0-windows\Quan_Ly_Khach_san.form.frmNhanVien.resources
 E:\Quan_Ly_khach_san1\Quan_Ly_Khach_san\Quan_Ly_Khach_san\bin\Debug\net8.0-windows\BCrypt.Net-Next.dll
+E:\Quan_Ly_khach_san1\Quan_Ly_Khach_san\Quan_Ly_Khach_san\obj\Debug\net8.0-windows\Quan_Ly_Khach_san.form.frmDatPhong.resources
+E:\Quan_Ly_khach_san1\Quan_Ly_Khach_san\Quan_Ly_Khach_san\obj\Debug\net8.0-windows\Quan_Ly_Khach_san.form.frmDichVu.resources
+E:\Quan_Ly_khach_san1\Quan_Ly_Khach_san\Quan_Ly_Khach_san\obj\Debug\net8.0-windows\Quan_Ly_Khach_san.form.frmLoaiPhong.resources
+E:\Quan_Ly_khach_san1\Quan_Ly_Khach_san\Quan_Ly_Khach_san\obj\Debug\net8.0-windows\Quan_Ly_Khach_san.form.frmPhong.resources
+E:\Quan_Ly_khach_san1\Quan_Ly_Khach_san\Quan_Ly_Khach_san\obj\Debug\net8.0-windows\Quan_Ly_Khach_san.sourcelink.json
+E:\Quan_Ly_khach_san1\Quan_Ly_Khach_san\Quan_Ly_Khach_san\obj\Debug\net8.0-windows\Quan_Ly_Khach_san.form.frmMain.resources
+E:\Quan_Ly_khach_san1\Quan_Ly_Khach_san\Quan_Ly_Khach_san\obj\Debug\net8.0-windows\Quan_Ly_Khach_san.Properties.Resources.resources
+E:\Quan_Ly_khach_san1\Quan_Ly_Khach_san\Quan_Ly_Khach_san\obj\Debug\net8.0-windows\Quan_Ly_Khach_san.form.Login.resources
+E:\Quan_Ly_khach_san1\Quan_Ly_Khach_san\Quan_Ly_Khach_san\bin\Debug\net8.0-windows\WinForms.DataVisualization.Utilities.dll
+E:\Quan_Ly_khach_san1\Quan_Ly_Khach_san\Quan_Ly_Khach_san\bin\Debug\net8.0-windows\WinForms.DataVisualization.dll

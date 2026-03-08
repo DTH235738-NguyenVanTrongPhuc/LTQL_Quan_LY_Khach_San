@@ -20,6 +20,7 @@ namespace Quan_Ly_Khach_san.form
         public frmNhanVien()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void BatTatChucNang(bool giaTri)
@@ -56,7 +57,7 @@ namespace Quan_Ly_Khach_san.form
 
             txtDiaChi.DataBindings.Clear();
             txtDiaChi.DataBindings.Add("Text", bindingSource, "DiaChi", false, DataSourceUpdateMode.Never);
-                
+
             txtDienThoai.DataBindings.Clear();
             txtDienThoai.DataBindings.Add("Text", bindingSource, "SoDienThoai", false, DataSourceUpdateMode.Never);
 
@@ -182,7 +183,12 @@ namespace Quan_Ly_Khach_san.form
 
         private void cboQuyenHan_SelectedIndexChanged(object sender, EventArgs e)
         {
-          //
+            //
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }
